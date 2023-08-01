@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,100;1,400&display=swap");
+
+* {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+}
+h1 {
+  font-size: 450%;
+}
+
+html,
+body {
+  height: 100%; /* Establece la altura total de la ventana del navegador */
+  margin: 0; /* Elimina los márgenes predeterminados */
+  padding: 0; /* Elimina el relleno predeterminado */
+  background-color: #2e3b4f;
+}
+
+.sin-vinetas {
+  list-style-type: none; /* Elimina las viñetas */
+  display: flex; /* Crea un flex container */
+  justify-content: space-between; /* Distribuye los elementos de forma equitativa */
+}
+
+.sin-vinetas li {
+  flex: 1; /* Ocupa un espacio igual dentro del flex container */
+}
+
+#seccion-1,
+#seccion-2,
+#seccion-3,
+#seccion-4 {
+  height: 100%; /* Establece la altura del div al 100% de la ventana del navegador */
+}
+
+.alinear-izquierda {
+  text-align: start;
+  margin-left: 10%;
+}
+
+.alinear-derecha {
+  text-align: end;
+  /* padding-right: 10rem; */
+  margin-right: 10%;
+}
+
+.alinear-arriba {
+  padding-top: 5rem;
+}
+
+.alinear-abajo {
+  padding-top: 10rem;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.fondo {
+  background-image: url("Fondo.png");
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50vh;
+}
+
+.top-row {
+  align-self: flex-start; /* Alinea el contenedor de la primera tarjeta en la parte superior */
+}
+
+.bottom-row {
+  align-self: flex-end; /* Alinea el contenedor de la segunda tarjeta en la parte inferior */
+}
+
+.card {
+  background-color: #ff8a00;
+  padding: 4rem;
+  border-radius: 30px;
+  margin: 2rem;
+  max-width: 40rem;
+  height: 10rem;
+}
+
+.contact {
+  background-color: #ff8a00;
+  padding: 3rem;
+  border-radius: 50px;
+  margin: 3rem;
+  max-width: 10rem;
+}
+
+.foto-central {
+  background-color: #C8B5B5;
+  text-align: center;
+  height: auto;
+  width: 18%;
+  border-radius: 100%;
+}
